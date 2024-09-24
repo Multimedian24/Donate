@@ -1,0 +1,167 @@
+.layout_padding {
+  padding: 75px 0;
+}
+
+.layout_padding2 {
+  padding: 45px 0;
+}
+
+.layout_padding2-top {
+  padding-top: 45px;
+}
+
+
+.layout_padding2-bottom {
+  padding-bottom: 45px;
+}
+
+.layout_padding-top {
+  padding-top: 55px;
+}
+
+.layout_padding-bottom {
+  padding-bottom: 55px;
+}
+/*header section*/
+.hero_area {
+  height: 98vh;
+  background-color: #ffffff;
+}
+
+.hero_area.sub_pages {
+  height: auto;
+}
+
+.header_section .container-fluid {
+  padding-right: 15px;
+  padding-left: 12px;
+}
+
+.header_section .nav_container {
+  margin: 0 auto;
+}
+
+.custom_nav-container.navbar-expand-lg .navbar-nav .nav-link {
+  padding: 5px 30px;
+  color: #343434;
+  text-align: center
+}
+
+a,
+a:hover,
+a:focus {
+  text-decoration: none;
+}
+
+a:hover,
+a:focus {
+  color: initial;
+}
+
+.btn,
+.btn:focus {
+  outline: none !important;
+  box-shadow: none;
+}
+
+
+
+.navbar-brand,
+.navbar-brand:hover {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 24px;
+  color: #f8c323;
+}
+
+.nav-item {
+	font-size: 14px;
+}
+
+.navbar-brand {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-brand img {
+  width: 210px;
+  margin-right: 5px;
+}
+
+.navbar-brand span {
+  font-size: 18px;
+  font-weight: 700;
+  color: #2e2e2d;
+  margin-top: 5px;
+}
+
+.custom_nav-container {
+  z-index: 99999;
+  padding: 10px 0;
+}
+
+.custom_nav-container .navbar-toggler {
+  outline: none;
+}
+
+.custom_nav-container .navbar-toggler .navbar-toggler-icon {
+  background-image: url(../images/menu.png);
+  background-size: 55px;
+}
+
+.donate_btn-container a {
+  display: inline-block;
+  padding: 16px 0;
+  border: 2px solid #f8c323 ;
+  border-radius: 15px;
+  text-align: center;
+  width: 160px;
+  background-color: #ffffff;
+  color: #f8c323;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+/*end header section*/
+.about_section {
+  text-align: center;
+  background-color: white;
+}
+
+.about_section p {
+  text-align: justify;
+}
+
+
+.about_section .img-box img {
+  width: 350px;
+}
+
+.custom_heading-container h1 {
+  color: #2274be;
+  
+}
+
+.custom_heading-container h3::before {
+  background-color: #ffffff;
+}
+
+/* footer section*/
+
+.footer_section {
+  background-color: #efeded;
+  padding: 20px 0;
+  font-family: "Roboto", sans-serif;
+}
+
+.footer_section p {
+  color: #191818;
+  margin: 0;
+  text-align: center;
+}
+
+.footer_section a {
+  color: #191818;
+}
+
+/* end footer section*/
